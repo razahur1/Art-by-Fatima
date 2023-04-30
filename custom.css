@@ -1,0 +1,259 @@
+body{
+    color: #444444;
+    font-family: "Raleway",sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    background-color: #FFFFFF;
+    text-align: -webkit-center;
+}
+
+.container{
+    max-width: 1140px;
+}
+.top-head{
+    background-color: #ffffff;
+    background-image: url(header-bg1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.logo-area{
+    text-align: center;
+    padding-top: 11%;
+}
+.nav-area{
+    width: 100%;
+}
+.menu-top{
+    background-image: url(menu-top.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+}
+.menu-center{
+    background-image: url(menu-centre.jpg);
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+.menu-bottom{
+    background-image: url(menu-bottom.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+   padding: 45px 0px 35px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3d4e47;
+    margin-right: 40px;
+    font-family: "Gilda Display";
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+nav li a:hover {
+    color: #b182a5;
+    border-bottom: 3px solid #3d4e47;;
+    padding-bottom: 20px;
+}
+.hero{
+    background-image: url(bg1-1.jpg);
+    width: 1140px;
+    height: 650px;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-left{
+    position: absolute;
+    right: -3%;
+    top: -4%;
+}
+.hero-center{
+    background-image: url(white-circle1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 400px auto;
+    position: absolute;
+    top: 14%;
+    right: 13%;
+    padding: 40px;
+}
+.hero-content{
+    margin-top: -10px;
+}
+.hero-content h2{
+    color: #000000;
+    font-family: "Gilda Display";
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1
+}
+.hero-content h3{
+    color: #B182A5;
+    font-family: "La Belle Aurore";
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    line-height: 1
+} 
+.hero-right{
+    position: absolute;
+    left: -5%;
+    bottom: -7%;
+}
+.content{
+    width: 50%;
+    text-align: left;
+}
+.content1{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.about-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.section-title span{
+    color: #B182A5;
+    font-family: "La Belle Aurore";
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+.section-title h2{
+    color: #000000;
+    font-family: "Gilda Display";
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.section-image img{
+    width: 150px;
+}
+.content1-image{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.content1-image img{
+    border: 3px groove #009212;
+    border-radius: 10px;
+}
+.about{
+    background-image: url(tile-pink-paper.jpg);
+    border-top: 5px solid #b182a5;
+}
+.about-area{
+    background-image: url(footer-bg1.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.about-item{
+    width: 31%;
+    margin-right: 25px;
+}
+.bottom-logo img{
+    width: 66%;
+}
+.about-content p{
+    margin-bottom: 25px;
+}
+.about-social{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.social-icon{
+    margin-left: 8px;
+}
+.social-icon a{
+    background-color: #b182a5;
+    border-radius: 50%;
+    padding: 11px;
+}
+.social-icon a:hover{
+    background-color: #2f4034;
+}
+.social-icon i{
+    color: #fff;
+    font-size: 14px;
+}
+.item-title {
+    text-align: left;
+    margin-left: 35px;
+}
+.item-title h2{
+    color: #B182A5;
+    font-family: "Gilda Display";
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.about-links{
+    text-align: left;
+}
+.about-links ul li{
+    list-style-type: none;
+    margin-bottom: 6px;
+}
+.about-links a {
+    text-decoration: none;
+    font-size: 15px;
+}
+.about-links span:hover{
+    color:  #b182a5;
+}
+.link-items span{
+    color: #444444;
+    padding-left: 10px;
+}
+.link-items i{
+    color: #B182A5;
+    font-size: 14px;
+}
+.about-contact{
+    text-align: left;
+}
+.contact-items{
+    list-style-type: none;
+    margin-bottom: 6px;
+}
+.contact-items a {
+    text-decoration: none;
+    font-size: 15px;
+}
+.contact-items span:hover{
+    color:  #b182a5;
+}
+.contact-items span{
+    color: #444444;
+    padding-left: 10px;
+}
+.contact-items i{
+    color: #B182A5;
+    font-size: 14px;
+}
+.foot-content h3{
+    color: #B182A5;
+    font-family: "La Belle Aurore";
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
